@@ -16,6 +16,5 @@ location.send_keys(Keys.RETURN)
 contactButton = driver.find_elements_by_class_name("contactBtn")
 print(contactButton)
 
-
 assert "No results found." not in driver.page_source
 #driver.close()
