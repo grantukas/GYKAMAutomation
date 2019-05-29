@@ -13,6 +13,6 @@ Functionalities that I am working on implementing:
   * If agent's website link works, then search their website to see if they offer life insurance. If they do, save their contact info to the CSV
 
 ## Helpful links
-*[Selenium documentation] (https://selenium-python.readthedocs.io/)
-*[Selenium WebDriver] (https://www.seleniumhq.org/projects/webdriver/)
-*[Selenium open tab, grab info, then return to main tab] (https://gist.github.com/lrhache/7686903)
+* [Selenium documentation](https://selenium-python.readthedocs.io/)
+* [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver/)
+* [Selenium open tab, grab info, then return to main tab](https://gist.github.com/lrhache/7686903)
