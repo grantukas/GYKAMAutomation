@@ -4,7 +4,7 @@ This Python program uses Selenium to automate searching through [Safeco](https:/
 
 Currently, the program opens the Safeco website in the Chrome browser, searches for independent agents by zipcode, then opens each agent's page in a new tab.
 
-The goal of this project is to open each agent's contact information, navigate to their website, and save their contact information if they happen to offer life insurance (if found on their website).
+The goal of this project is to open each agent's contact information, navigate to their website, and save their contact information if they offer life insurance (if found on their website).
 
 Functionalities that I am working on implementing:
 * Save zipcodes to a text file and parse the text file (save as a list), then search through zips
