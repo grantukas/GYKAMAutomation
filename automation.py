@@ -7,7 +7,7 @@ def openContacts(contacts): # Function to open each contact in a list in a new t
         if(element.text == ""):
             continue # Skip if element is blank
         else:
-            print(element.text) # Get element text and open each in new tab
+            print(element.text) # Get element text and open in new tab, for Mac change CONTROL to COMMAND
             ActionChains(driver) \
                 .key_down(Keys.CONTROL) \
                 .click(element) \
@@ -25,7 +25,7 @@ def clickNext(): # Function to click the next button to use after searching for 
 # Edit this block depending on Mac/Windows
 # This version is for Alena testing on Mac
 #driver = webdriver.Chrome(executable_path="/Users/alenastankaitis/Desktop/chromedriver");
-driver = webdriver.Chrome() # This is for use on Windows, be sure .exe is in same directory
+driver = webdriver.Chrome() # This is for use on Windows, be sure .exe is in same directory as program
 
 driver.get("http://www.safeco.com")
 assert "Safeco Insurance" in driver.title
