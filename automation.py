@@ -13,6 +13,7 @@ def openContacts(contacts): # Function to open each contact in a list in a new t
                 .click(element) \
                 .key_up(Keys.CONTROL) \
                 .perform()
+
 def clickNext(): # Function to click the next button to use after searching for agencies
     navigationList = driver.find_element_by_xpath("//div[@class='simple-pagination compact-theme']")
     nextButton = navigationList.find_elements_by_tag_name("li")
